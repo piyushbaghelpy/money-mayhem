@@ -1,3 +1,5 @@
+PLAY GAME HERE- https://moneymayhem.streamlit.app/
+
 # 🎮 Money Mayhem - Fun Quiz Game
 
 A fun, engaging quiz game built with Streamlit and Groq AI!
