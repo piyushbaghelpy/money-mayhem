@@ -199,6 +199,7 @@ else:
             if net_money < 0 and questions_left >= 2:
                 st.warning("💸 Need money?")
                 st.toast("⚠️ You're running out of money! Consider taking a loan.", icon="💳")
+                st.toast("⚠️ FOR TAKING THE LOAN SCROLL LEFT \"YOUR STATUS\" OPTION TO DOWN ⚠️")
                 loan_amt = st.number_input("Loan amount", 10, 500, 100, 10)
                 if st.button("💳 Take Loan"):
                     st.session_state.money += loan_amt
